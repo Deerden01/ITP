@@ -1,0 +1,45 @@
+#1
+print('Сторона а: ')
+a=int(input())
+print('Сторона b: ')
+b=int(input())
+print('Площадь: ', a*b)
+print('Периметр: ', 2*(a+b))
+
+#2
+print('Диаметр окружности: ')
+d=int(input())
+print('Длина окружности: ', d*3.14)
+
+#3
+print('Число a: ')
+a1=int(input())
+print('Число b: ')
+b1=int(input())
+print('Среднее арифметическое: ', (a1+b1)/2)
+
+#4
+print('Число 1: ')
+num1=int(input())**2
+print('Число 2: ')
+num2=int(input())**2
+if (num1!=0)and(num2!=0):
+    print('Сумма: ', num1+num2)
+    print('Разность: ', num1-num2)
+    print('Произведение: ', num1*num2)
+    print('Частное: ', num1/num2)
+else:
+    print('Оба числа должны быть отличны от нуля!')
+
+#5
+print('Число 1: ')
+num3=abs(int(input()))
+print('Число 2: ')
+num4=abs(int(input()))
+if (num3!=0)and(num4!=0):
+    print('Сумма: ', num3+num4)
+    print('Разность: ', num3-num4)
+    print('Произведение: ', num3*num4)
+    print('Частное: ', num3/num4)
+else:
+    print('Оба числа должны быть отличны от нуля!')
